@@ -1,0 +1,51 @@
+﻿<Window x:Class="PhoneBook.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhoneBook"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Color x:Key="SolidColorBrushColor1">#FFEDEDF0</Color>
+    </Window.Resources>
+    <Grid  Panel.ZIndex="1">
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition></ColumnDefinition>
+
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <ScrollViewer  Panel.ZIndex="1" Grid.Column="0" >
+            <StackPanel x:Name="StackPanel" />
+        </ScrollViewer>
+        <Button x:Name="AddPersonButton" Panel.ZIndex="100" Content="+" HorizontalAlignment="Right" Margin="0,0,10,10" Width="50" FontSize="35" RenderTransformOrigin="0.53,0.483" Height="51" VerticalAlignment="Bottom" Click="AddPersonButton_Click"/>
+        <TextBox x:Name="newName"  Panel.ZIndex="100" HorizontalAlignment="Right" Margin="0,0,60,33" Text="TextBox" TextWrapping="Wrap" Width="125" Height="28" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="newLastName"  Panel.ZIndex="100" HorizontalAlignment="Right" Margin="0,0,60,10" Text="TextBox" TextWrapping="Wrap" Width="125" Height="25" VerticalAlignment="Bottom"/>
+        <Grid Grid.Column="1" ShowGridLines="True"  Height="424" VerticalAlignment="Top" Margin="0,0,10,0">
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="135*"></RowDefinition>
+
+                <RowDefinition Height="154*"></RowDefinition>
+
+                <RowDefinition Height="145*"></RowDefinition>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition></ColumnDefinition>
+
+                <ColumnDefinition></ColumnDefinition>
+
+                <ColumnDefinition></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" Text="Информация" FontSize="17"/>
+
+        </Grid>
+    </Grid>
+</Window>
