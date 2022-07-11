@@ -5,7 +5,7 @@
  Данный проект создан с использованием [WPF](https://docs.microsoft.com/ru-ru/dotnet/desktop/wpf/introduction-to-wpf?view=netframeworkdesktop-4.8) и [postgreSQL](https://www.postgresql.org/). 
  Пользователь может просматривать ранее сохраненные контакты,
  добавлять информацию о них или создавать новые контакты. Вся информация добавляемая пользователем хранится в БД, 
- взаимодействие с кототрой происходит посредствам библиотеки [Npgsql](https://www.npgsql.org/).(логирование происходит в log файл).
+ взаимодействие с кототрой происходит посредствам библиотеки [Npgsql](https://www.npgsql.org/).
 ## Начала работы
 * ### Настройка и Установка БД
   1. Требуется установить [postgreSQL](https://www.postgresql.org/) и [pgadmin](https://www.pgadmin.org/)
