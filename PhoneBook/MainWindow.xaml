@@ -21,9 +21,9 @@
             <StackPanel x:Name="StackPanel" />
         </ScrollViewer>
         <Button x:Name="AddPersonButton" Panel.ZIndex="100" Content="+" HorizontalAlignment="Right" Margin="0,0,10,10" Width="50" FontSize="35" RenderTransformOrigin="0.53,0.483" Height="51" VerticalAlignment="Bottom" Click="AddPersonButton_Click"/>
-        <TextBox x:Name="newName"  Panel.ZIndex="100" HorizontalAlignment="Right" Margin="0,0,60,33" Text="TextBox" TextWrapping="Wrap" Width="125" Height="28" VerticalAlignment="Bottom"/>
-        <TextBox x:Name="newLastName"  Panel.ZIndex="100" HorizontalAlignment="Right" Margin="0,0,60,10" Text="TextBox" TextWrapping="Wrap" Width="125" Height="25" VerticalAlignment="Bottom"/>
-        <Grid Grid.Column="1" ShowGridLines="True"  Height="424" VerticalAlignment="Top" Margin="0,0,10,0">
+        <TextBox x:Name="newName"  Panel.ZIndex="100" HorizontalAlignment="Right" Margin="0,0,60,33" Text="Имя" TextWrapping="Wrap" Width="125" Height="28" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="newLastName"  Panel.ZIndex="100" HorizontalAlignment="Right" Margin="0,0,60,10" Text="Фамилия" TextWrapping="Wrap" Width="125" Height="25" VerticalAlignment="Bottom"/>
+        <Grid Grid.Column="1" ShowGridLines="False"  Height="424" VerticalAlignment="Top" Margin="0,0,10,0">
 
             <Grid.RowDefinitions>
 
