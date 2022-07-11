@@ -11,12 +11,13 @@
   1. Требуется установить [postgreSQL](https://www.postgresql.org/) и [pgadmin](https://www.pgadmin.org/)
   2. В установленном pgadmin требуется создать на localhost БД с именем PhoneBook, где User Id=postgres и Password=1Q2w3e4r5t
   3. Далее в готовой БД требуется создать таблицу, скомпилировав следующий код 
-  ```CREATE TABLE people  
+  ```
+  CREATE TABLE people  
   (
     first_name text,
     last_name text,
     info text
-  );```
+  );
 * ### Запуск приложения
   1. Установить [Visual Studio](https://visualstudio.microsoft.com/ru/) 
   2. Запустить .sln файл приложения
